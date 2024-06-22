@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:contentDescription="@string/acr_fotoDes" app:srcCompat="@drawable/uth2" />
+
+        <ImageView
+            android:id="@+id/iv_Foto"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/acr_fotoDes"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/btn_Foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="50dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/acr_btnFoto" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="@string/acr_txtPais" />
+
+        <Spinner
+            android:id="@+id/sp_Pais"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:theme="@style/Spinner"
+            android:textSize="19sp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:hint="@string/acr_txtNom">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:textSize="19sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:hint="@string/acr_txtTel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLength="8"
+                android:textSize="19sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:hint="@string/acr_txtnota">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_Nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:textSize="19sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_Salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="@string/acr_btnGuardar" />
+
+        <Button
+            android:id="@+id/btn_Contactos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="@string/acr_btnListaContact" />
+    </LinearLayout>
+
+</ScrollView>

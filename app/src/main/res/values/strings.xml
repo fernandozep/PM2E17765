@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PM2E17765</string>
+
+    <string name="acr_fotoDes">Foto Persona</string>
+    <string name="acr_btnFoto">+</string>
+    <string name="acr_txtPais">Seleccione un país.</string>
+    <string name="acr_txtNom">Ingrese el nombre de la persona.</string>
+    <string name="acr_txtTel">Ingrese número telefónico.</string>
+    <string name="acr_txtnota">Nota adicional.</string>
+    <string name="acr_btnGuardar">GUARDAR CONTACTO</string>
+    <string name="acr_btnListaContact">VER CONTACTOS</string>
+
+    <string name="lis_btnRegresar">Regresar</string>
+    <string name="lis_btnCompartir">Compartir Contacto</string>
+    <string name="lis_btnVerImg">Ver Imagen</string>
+    <string name="lis_btnEliminar">Eliminar Contacto</string>
+    <string name="lis_btnActualizar">Actualizar Contacto</string>
+
+    <string name="fot_btnRegresar">REGRESAR</string>
+
+    <string name="lla_btnLlamar">LLAMAR CONTACTO</string>
+    <string name="lla_lblPers">Persona</string>
+    <string name="lla_lblTel">Numero</string>
+
+</resources>
